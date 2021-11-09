@@ -20,4 +20,4 @@ def test_ApiJson():
 def test_ApiWorker():
     b.open('/api/v1/worker')
     result = json.loads(b.get_text())
-    assert 'worker-name' in result
+    assert 'worker-name' in result 
